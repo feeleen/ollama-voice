@@ -1,7 +1,8 @@
 import pyttsx3
 import numpy as np
-import whisper
+from faster_whisper import WhisperModel
 import pyaudio
+import whisper
 import sys
 import torch
 import requests

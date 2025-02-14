@@ -1,18 +1,18 @@
 messages:
-  pressSpace: "Pressez sur espace pour parler puis relachez."
-  loadingModel: "Chargement du modèle..."
-  noAudioInput: "Erreur: Pas d'entrée son"
+  pressSpace: "Press space to keep talking."
+  loadingModel: "Запуск модели..."
+  noAudioInput: "Ошибка: нет входного звука"
 
 whisperRecognition:
-  modelPath: "whisper/large-v3.pt"
-  lang: "fr"
+  modelPath: "large-v3"
+  lang: "ru"
 
 ollama:
   url: "http://localhost:11434/api/generate"
-  model: "mistral"
+  model: "mistral-openorca"
 
 conversation:
-  context: "Cette conversasion est intégralement en français."
-  greeting: "Je vous écoute."
-  recognitionWaitMsg: "Oui."
-  llmWaitMsg: "Laissez moi réfléchir."
+  context: "Этот разговор полностью на русском языке"
+  greeting: "Я вас слушаю."
+  recognitionWaitMsg: "Да."
+  llmWaitMsg: "Дайте мне подумать."
